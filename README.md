@@ -6,14 +6,14 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 ## 목차 [Table of Contents]
 
-- [테라폼이란?](#테라폼이란)
-- [Terraform Configuration](#terraform-configuration)
-- [Terraform Commands](#terraform-commands)
+- [테라폼이란?](#테라폼이란-what-is-terraform)
+- [Terraform Configuration](#테라폼의-구성-terraform-configuration)
+- [Terraform Commands](#테라폼-명령어-terraform-commands)
 - [Create EC2](#create-eC2)
 
 # 테라폼 공식문서를 활용한 공부 [Study Terraform Using docs]
 
-## 테라폼이란? [What is Terraform]
+# 테라폼이란? [What is Terraform]
 
 💡 IaC (Infra as Code)
 수동 프로세스가 아닌 코드를 통해 인프라를 관리하고 프로비저닝하는 것. 인프라 사양을 담은 구성 파일이 생성되어 구성 편집 및 배포가 보다 용이하다. 또한 매번 동일한 환경을 프로비저닝할 수 있도록 한다.
@@ -37,7 +37,7 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 </details>
 
-# Terraform Commands
+# 테라폼 명령어 [Terraform Commands]
 
 <details>
   <summary>클릭하여 내용 보기</summary>
@@ -86,11 +86,6 @@ terraform taint로 손상된 리소스의 손상 표시를 제거합니다.
 
 </details>
 
-## Create EC2
+## Tutorial
 
-[- EC2 생성하기 README 이동하기](create-ec2/README.md)  
-[- terraform dock 이동하기 ](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build)
-
-```
-
-```
+[- Tutorial README 이동하기](tutorial/README.md)
