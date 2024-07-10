@@ -9,7 +9,7 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 - [테라폼이란?](#테라폼이란-what-is-terraform)
 - [Terraform Configuration](#테라폼의-구성-terraform-configuration)
 - [Terraform Commands](#테라폼-명령어-terraform-commands)
-- [Create EC2](#create-eC2)
+- [Tutorial](#tutorial)
 
 # 테라폼 공식문서를 활용한 공부 [Study Terraform Using docs]
 
