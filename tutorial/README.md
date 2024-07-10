@@ -129,3 +129,27 @@ Point
 
 **오류 감소:**  
 변수를 사용하지 않을 때, 잘못된 입력이나 외부에서 변수 값을 설정하는 복잡성이 감소하여, 구성의 오류 발생 가능성이 낮아짐
+
+### 4. output 블럭 사용
+
+- outputs.tf
+
+```
+output "instance_id" {
+  description = "ID of the EC2 instance"
+  value       = aws_instance.app_server.id
+}
+
+output "instance_public_ip" {
+  description = "Public IP address of the EC2 instance"
+  value       = aws_instance.app_server.public_ip
+}
+
+
+```
+
+Point
+
+- output에 instance_id와 instance_public_ip가 나오는것을 확인
+
+Terraform outputs을 사용하여 Terraform 프로젝트를 인프라의 다른 부분 또는 다른 Terraform 프로젝트에 활용 가능함
